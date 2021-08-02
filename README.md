@@ -2,7 +2,7 @@
 
 #### By: [Zhewei Sun](http://www.cs.toronto.edu/~zheweisun/)
 
-This is the github repository for the TACL paper "A Computation Framework for Slang Generation".
+This is the github repository for the TACL paper "[A Computation Framework for Slang Generation](https://direct.mit.edu/tacl/article/doi/10.1162/tacl_a_00378/100687/A-Computational-Framework-for-Slang-Generation)".
 
 ## Urban Dictionary (UD) Dataset for Slang NLP
 
@@ -20,4 +20,6 @@ UD_Dataset.npy contains a python friendly format of the dataset and also include
 
 ## Training Contrastive Sense Embeddings
 
-Code for training contrastive embeddings coming soon. Stay Tuned!
+Code for training contrastive embeddings can be found in the /Code directory. Please refer to the Jupyter notebook found in the /Demo directory for a tutorial.
+
+The provided demo showcases the complete training procedure to obtain contrastive slang sense embeddings from the UD dataset released above along with open sourced conventional definitions from WordNet. This combination achieves comparable results as the UD experiment performed in the paper that uses Oxford Dictionary (OD) entries as conventional definitions.
